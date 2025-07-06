@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /margin: 0;
+    background-image: url(css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+header{
+    background-color: rgb(102, 212, 212);
+    text-align: center;
+    padding: 25px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(216, 184, 184);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+.navbar a:hover{
+    background-color: rgb(15, 10, 10);
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(137, 156, 156);
+    text-align: center;
+    padding: 25px;
+}
